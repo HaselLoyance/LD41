@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - LevelEdge
+  - Car
+  - Checkpoint
+  - CarBullet
+  - EnemyBullet
+  - Magnet
+  - CarBulletUltra
+  - BossTransition1
+  - BossTransition2
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Edge
+  - CarBullet
+  - Laps
+  - Collectible
+  - EnemyBullet
+  - UltraBullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Car-Edge-Mask
+    uniqueID: 3227284443
+    locked: 0
+  - name: lemme get uhhh
+    uniqueID: 441380569
+    locked: 0
