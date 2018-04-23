@@ -61,7 +61,7 @@ public class Car : MonoBehaviour
 
         magnet.radius = magnetSizeOrig + firePower * 30.0f;
 
-        if (Input.GetKey(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             unlimitedRage = !unlimitedRage;
             if(unlimitedRage)
@@ -70,7 +70,7 @@ public class Car : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.Alpha2))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             unlimitedPower = !unlimitedPower;
             if (unlimitedPower)
@@ -286,7 +286,8 @@ public class Car : MonoBehaviour
     void DoShooty2()
     {
         tt.hujak();
-        
+        GameManager.Instance.sm.PlaySound("UltraNormalShot");
+
         if (Input.GetMouseButton(0) && !isDead)
         {
             Invoke("DoShooty2", 1 / (fireRate + firePower * 2.0f) * 10.0f);

@@ -75,8 +75,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: de575796645c37049ababd7eca73d1d1, type: 3}
   - name: CheckpointFinish
     clip: {fileID: 8300000, guid: 8a5e73cb845dce54f978dc0caad02157, type: 3}
-  - name: 
-    clip: {fileID: 0}
+  - name: UltraNormalShot
+    clip: {fileID: 8300000, guid: 50fa83edb3a26bf47af74b5adf07fb49, type: 3}
   - name: 
     clip: {fileID: 0}
   - name: 

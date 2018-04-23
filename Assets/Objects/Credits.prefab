@@ -259,7 +259,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 20615559669186936, guid: 0523c359883ace54db62760ed1fbf9a9, type: 2}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -267,7 +267,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 441380569
+  m_SortingLayerID: 0
   m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!224 &224127700529961126
