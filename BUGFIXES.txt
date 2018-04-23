@@ -1,5 +1,6 @@
 v1.1
 - FIX: bug where the score on game over screen appeared as a bunch of 9
+- FIX: no smooth fade after death
 
 v1.0
 - Initial Release
